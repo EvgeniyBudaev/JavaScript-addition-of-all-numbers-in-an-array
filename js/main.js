@@ -1,17 +1,12 @@
+	// Cложение всех чисел из массива
+	const array1 = ['4', '3', '7', '10', '1'];
 
-		
-	// Максимальное нечетное число из массива
-	// Arrow-function
-
-	const array = ['4', '3', '7', '10', '1'];
-
-	const sum = array
+	const sumNumbersArray1= array1
 		.map((el) => parseInt(el))
 		.reduce((total, value) => total + value)
 	
-		console.log(sum);
+		console.log(sumNumbersArray1);
 
-
-
+	
 	
 	
